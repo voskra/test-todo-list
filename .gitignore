@@ -1,0 +1,11 @@
+dist
+node_modules
+/server/node_modules
+coverage
+tsconfig.tsbuildinfo
+*.log
+
+### MacOS system files ###
+.DS_Store
+.AppleDouble
+.LSOverride

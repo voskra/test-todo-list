@@ -1,0 +1,50 @@
+.siteLayoutHeader {
+  color: #fff !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.siteLayout {
+  height: 100%;
+}
+
+.siteLayoutContent {
+  height: 100%;
+  overflow: hidden;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.formContainer {
+  max-width: 600px;
+  margin: auto;
+}
+
+.todoHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.todoTasksContainer {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.todoTaskCard {
+  width: 350px;
+  height: 200px;
+  margin: 0.2em;
+}
+
+.todoTaskDeleteButton {
+  margin-left: 0.5em;
+}
